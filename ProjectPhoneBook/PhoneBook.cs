@@ -9,9 +9,9 @@ namespace ProjectPhoneBook
     class PhoneBook
     {
         public List<Contact> Contacts { get; set; } = new List<Contact>();
-        public void AddContact(Contact contact) //przychodzi klasa
+        public void AddContact(Contact contact) 
         {
-            Contacts.Add(contact); //dodawna ona jest do listy Contacts
+            Contacts.Add(contact); 
         }
 
         private void DisplayContactDetails(Contact contact)
